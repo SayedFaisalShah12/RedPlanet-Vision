@@ -1,6 +1,6 @@
 # RadPlanet-Vision: Autonomous Terrain Understanding Using NASA Mars Rover Imagery
 
-**Author**: [Your Name/AI Agent]  
+**Author**: [Sayed Faisal/ RedPlanet-Vision]  
 **Institution**: NASA-style Research Initiative Simulation  
 **Date**: 2026-01-13
 
