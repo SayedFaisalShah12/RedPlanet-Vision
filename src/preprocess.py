@@ -1,4 +1,8 @@
+import sys
 import os
+from pathlib import Path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms

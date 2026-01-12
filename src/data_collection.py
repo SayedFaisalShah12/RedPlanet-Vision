@@ -1,4 +1,10 @@
+import sys
 import os
+from pathlib import Path
+
+# Add project root to sys.path
+sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 import time
 import requests
 import pandas as pd
