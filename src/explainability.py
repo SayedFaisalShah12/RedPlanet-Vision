@@ -59,9 +59,17 @@ class GradCAM:
         return heatmap
 
 def visualize_cam(heatmap, original_image_path, save_path):
+    print(f"Reading image from: {original_image_path}")
     img = cv2.imread(str(original_image_path))
+    print(f"Image object type: {type(img)}")
+    
+    if img is None:
+        raise ValueError(f"Could not read image at {original_image_path} with cv2. Check path and permissions.")
+        
+    print(f"Resizing image of shape {img.shape} to {IMAGE_SIZE}")
     img = cv2.resize(img, IMAGE_SIZE)
     
+    print(f"Heatmap type: {type(heatmap)}, shape: {heatmap.shape}")
     heatmap = cv2.resize(heatmap, (img.shape[1], img.shape[0]))
     heatmap = np.uint8(255 * heatmap)
     heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
