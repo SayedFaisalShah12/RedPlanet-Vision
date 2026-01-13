@@ -91,6 +91,6 @@ def run_explainability(model, image_path, target_layer):
 
 # Example usage commented out to avoid runtime errors on import
 # if __name__ == "__main__":
-#     model = torch.load("path/to/model.pth")
+#     model = torch.load("path/to/model.pth", weights_only=False)
 #     # For ResNet, target_layer is usually model.layer4[-1]
 #     run_explainability(model, "path/to/image.jpg", model.layer4[-1])

@@ -27,7 +27,7 @@ def evaluate_model(rover_name="curiosity", model_path=None):
 
     print(f"Loading model from {model_path}")
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    model = torch.load(model_path)
+    model = torch.load(model_path, weights_only=False)
     model = model.to(device)
     model.eval()
 
