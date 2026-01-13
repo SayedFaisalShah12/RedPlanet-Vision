@@ -54,7 +54,7 @@ class GradCAM:
         
         # Normalize heatmap
         heatmap = np.maximum(heatmap, 0)
-        heatmap /= torch.max(torch.tensor(heatmap)) if np.max(heatmap) > 0 else 1
+        heatmap /= np.max(heatmap) if np.max(heatmap) > 0 else 1
         
         return heatmap
 
@@ -70,6 +70,9 @@ def visualize_cam(heatmap, original_image_path, save_path):
     img = cv2.resize(img, IMAGE_SIZE)
     
     print(f"Heatmap type: {type(heatmap)}, shape: {heatmap.shape}")
+    print(f"Heatmap dtype: {heatmap.dtype}")
+    sys.stdout.flush()
+    
     heatmap = cv2.resize(heatmap, (img.shape[1], img.shape[0]))
     heatmap = np.uint8(255 * heatmap)
     heatmap = cv2.applyColorMap(heatmap, cv2.COLORMAP_JET)
