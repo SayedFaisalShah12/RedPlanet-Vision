@@ -13,6 +13,8 @@
 Planetary exploration suffers from a significant bandwidth bottleneck; transmitting high-resolution data from Mars to Earth is costly and slow. On-board autonomy that can prioritize scientific data (e.g., "Transmit only images containing 'bedrock' or 'anomalies'") is critical for future missions. This project simulates such a capability by building a robust terrain classifier from raw API feeds.
 
 ## 3. Dataset
+> **⚠️ IMPORTANT NOTICE (2026-01-13)**: The NASA Mars Rover Photos API is currently experiencing a service outage (Status 404: "No such app"). The project includes a **Mock Data Generator** (`src/generate_mock_data.py`) to simulate API responses and valid image data, ensuring the pipeline can still be developed and tested.
+
 Data is sourced directly from the **NASA Mars Rover Photos API**.
 - **Rovers**: Curiosity, Perseverance
 - **Sensors**: FHAZ (Front Hazard Avoidance), RHAZ, NAVCAM, MAST

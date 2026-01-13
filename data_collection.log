@@ -224,3 +224,171 @@
 2026-01-13 02:26:42,438 - __main__ - WARNING - Rate limited at Sol 1005. Sleeping for 60s...
 2026-01-13 02:27:42,444 - __main__ - INFO - Found 0 photos matching criteria.
 2026-01-13 02:27:42,458 - __main__ - WARNING - No photos found.
+2026-01-13 23:17:08,426 - __main__ - INFO - Fetching metadata for curiosity from Sol 1000 to 1002...
+2026-01-13 23:17:10,305 - __main__ - ERROR - Error 404 at Sol 1000: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+2026-01-13 23:17:14,397 - __main__ - ERROR - Error 404 at Sol 1001: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+2026-01-13 23:17:16,394 - __main__ - ERROR - Error 404 at Sol 1002: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+2026-01-13 23:17:16,397 - __main__ - INFO - Found 0 photos matching criteria.
+2026-01-13 23:17:16,407 - __main__ - WARNING - No photos found.
+2026-01-13 23:18:19,517 - __main__ - INFO - Fetching metadata for curiosity from Sol 1000 to 1005...
+2026-01-13 23:18:22,033 - __main__ - ERROR - Error 404 at Sol 1000: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+2026-01-13 23:18:23,960 - __main__ - ERROR - Error 404 at Sol 1001: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+2026-01-13 23:18:25,903 - __main__ - ERROR - Error 404 at Sol 1002: <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>No such app</title>
+    <style media="screen">
+      html,body,iframe {
+        margin: 0;
+        padding: 0;
+      }
+      html,body {
+        height: 100%;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe src="//www.herokucdn.com/error-pages/no-such-app.html"></iframe>
+  </body>
+</html>
+
+2026-01-13 23:18:27,676 - __main__ - WARNING - Rate limited at Sol 1003. Sleeping for 60s...
+2026-01-13 23:19:30,698 - __main__ - WARNING - Rate limited at Sol 1004. Sleeping for 60s...
