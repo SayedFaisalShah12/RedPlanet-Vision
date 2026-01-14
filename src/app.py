@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 from pathlib import Path
 import torch
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import sys
 
 # Add project root
