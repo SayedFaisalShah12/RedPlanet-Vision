@@ -9,6 +9,9 @@
 ## 1. Abstract
 **RadPlanet-Vision** is an autonomous AI pipeline designed to categorize Martian surface terrain features using monocular imagery from the Curiosity and Perseverance rovers. By leveraging weak supervision and deep scattering feature analysis (ResNet + K-Means), this system autonomously organizes raw data into semantic clusters, enabling researchers to rapidly index wide-area survey data. The pipeline is designed for reproducibility, explainability, and scalability.
 
+## Links:
+Streamlit: https://sayedfaisalshah12-redplanet-vision-srcapp-tz61tp.streamlit.app/
+
 ## 2. Motivation
 Planetary exploration suffers from a significant bandwidth bottleneck; transmitting high-resolution data from Mars to Earth is costly and slow. On-board autonomy that can prioritize scientific data (e.g., "Transmit only images containing 'bedrock' or 'anomalies'") is critical for future missions. This project simulates such a capability by building a robust terrain classifier from raw API feeds.
 
