@@ -2,10 +2,10 @@ torch
 torchvision
 numpy
 pandas
-matplotlib
 seaborn
 requests
 scikit-learn
 Pillow
 tqdm
-jupyter
+streamlit
+opencv-python-headless
