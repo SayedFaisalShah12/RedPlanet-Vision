@@ -1,4 +1,17 @@
+---
+title: RadPlanet-Vision
+emoji: 🔴
+colorFrom: red
+colorTo: black
+sdk: streamlit
+sdk_version: 1.41.1
+python_version: 3.12
+app_file: src/app.py
+pinned: false
+---
+
 # RadPlanet-Vision: Autonomous Terrain Understanding Using NASA Mars Rover Imagery
+
 
 **Author**: [Sayed Faisal/ RedPlanet-Vision]  
 **Institution**: NASA-style Research Initiative Simulation  
